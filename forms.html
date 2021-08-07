@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <!-- Attach a label to an input by putting inside label -->
+            <label>First Name
+                <input />
+            </label>
+        </p>
+        <p>
+            <!-- attach label by using for attribute on label and id attribute on input-->
+            <label for="lastname">Last Name</label>
+            <input id="lastname" />
+        </p>
+        <p>
+            <input type="checkbox">
+            <input type="radio">
+            <input type="range">
+            <input type="color">
+            <input type="date">
+            <input type="email">
+            <input type="password">
+        </p>
+        <p>
+            <fieldset>
+                <legend>What toppings would you like?</legend>
+                <label><input type="checkbox" name="toppings">Cheese</label>
+                <label><input type="checkbox" name="toppings">Pepperoni</label>
+                <label><input type="checkbox" name="toppings">Olives</label>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Order Type?</legend>
+                <label><input type="radio" name="order_type">Delivery</label>
+                <label><input type="radio" name="order_type">Pick-up</label>
+            </fieldset>
+        </p>
+        <p>
+            <label for="crust">Crust</label>
+            <select id="crust">
+                <option value="" disabled selected>--Please choose an option--</option>
+                <option>Classic</option>  
+                <option>Deep Dish</option> 
+                <option>Detroit Style</option>   
+            </select>
+        </p>
+        <p>
+            <label for="comments">Comments</label>
+            <textarea id="comments"></textarea>
+        </p>       
+
+        <button type="submit">Make my pizza, plz</button>
+        <button type="reset">Nah</button>
+    
+    </form>
+</body>
+</html>
