@@ -8,6 +8,11 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+}
 #intro {
     font-style: italic;
 }
@@ -26,4 +31,13 @@ p {
 .fancy {
     background-color: chartreuse;
     color: green;
+}
+
+@media only screen and (min-width: 500px) {
+    h3 {
+        font-size: 100px;
+    }
+    h4 {
+        font-size: 100px;
+    }
 }
